@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Pembayaran</title>
+  </head>
+	<div class="container">
+		
+		
+		<nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="index.html">RA KOMPUTER</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarText">
+		      <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
+		        <li class="nav-item">
+		          <a class="nav-link" href="check.html">KERANJANG</a>
+		        </li>
+		        <li class="nav-item">
+		          <a class="nav-link" href="index.html">KEMBALI</a>
+		        </li>
+		        
+		      </a>
+
+		    </div>
+		  </div>
+		</nav>
+        <div class="row">
+			<div class="col-12">
+				<h1 class="text-judul-halaman">Pembayaran Barang</h1>
+			</div>
+		</div>
+       <div class="row">
+			
+			<div class="col-md-7">
+				<form>
+					<h3 class="text-judul">Info Pengiriman</h3>
+
+					<label class="w-100 mb-3">
+						Alamat lengkap <br>
+						<input type="text" class="form-control">
+					</label>
+					<label class="w-100 mb-3">
+						Provinsi <br>
+						<input type="text" class="form-control">
+					</label>
+					<label class="w-100 mb-3">
+						Kabupaten / Kota <br>
+						<input type="text" class="form-control">
+                    </label>
+                    <label class="w-100 mb-3">
+						Kode Pos<br>
+						<input type="text" class="form-control">
+                    </label>
+					<h3 class="text-judul mt-5">Kurir Pengiriman</h3>
+					<label class="w-100 mb-3 border rounded p-2">
+						<input type="radio" name="kurir">
+						j&t express
+						<span class="float-end">RP 1000.000</span>
+					</label>
+					<label class="w-100 mb-3 border rounded p-2">
+						<input type="radio" name="kurir">
+						JNE express
+						<span class="float-end">RP 800.000</span>
+					</label>
+
+
+					<h3 class="text-judul mt-5">Metode Pembayaran</h3>
+					<label class="w-100 mb-3 border rounded p-2">
+						<input type="radio" name="pembayaran">
+						Transfer Bank
+					</label>
+					<label class="w-100 mb-3 border rounded p-2">
+						<input type="radio" name="pembayaran">
+						Cash on Delivery (COD)
+					</label>
+					<label class="w-100 mb-3 border rounded p-2">
+						<input type="radio" name="pembayaran">
+						RA pay
+					</label>
+					<label class="w-100 mb-3 border rounded p-2">
+						<input type="radio" name="pembayaran">
+						OVO
+					</label>
+					<label class="w-100 mb-3 border rounded p-2">
+						<input type="radio" name="pembayaran">
+						DANA
+					</label>
+
+					<button type="submit" class="btn btn-lg btn-success mt-5 mb-5">Bayar</button>
+
+				</form>
+			</div>
+            <div class="col-md-4 offset-md-1">
+				<div class="card sticky-top">
+				  <div class="card-header bg-white">
+				    <h3 class="text-judul">Jumlah Pembayaran</h3>
+				  </div>
+				  <div class="card-body">
+				    <div class="row mt-2 mb-2">
+				    	<div class="col-md"><small>Total Belanja</small></div>
+				    	<div class="col-md">RP 22.398.999</div>
+				    </div>
+				    <div class="row mt-2 mb-2">
+				    	<div class="col-md"><small>Biaya ongkir</small></div>
+				    	<div class="col-md">RP 1.000.000</div>
+				    </div>
+				    <div class="row mt-2 mb-2">
+				    	<div class="col-md"><small>Total</small></div>
+				    	<div class="col-md">RP 23.398.000</div>
+				    </div>
+				  </div>
+				  <div class="card-footer">
+				    <button type="submit" class="btn btn-lg btn-success w-100">Bayar</button>
+				  </div>
+				</div>
+			</div>
+		</div>
+		</div> 
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+	<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>	
